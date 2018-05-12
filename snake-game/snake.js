@@ -1,6 +1,6 @@
 var draw = function(snakeToDraw, flower) {
   var drawableSnake = { color: "Teal", pixels: snakeToDraw };
-  var drawableFlower = { color: "MediumVioletRed", pixels: [flower] };
+  var drawableFlower = { color: "Purple", pixels: [flower] };
   var drawableObjects = [drawableSnake, drawableFlower];
   CHUNK.draw(drawableObjects);
 }
